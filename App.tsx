@@ -4,6 +4,7 @@ import { WhoWeAre } from './components/WhoWeAre';
 import { PainPoints } from './components/PainPoints';
 import { FeaturedCourse } from './components/FeaturedCourse';
 import { KnowledgeAreas } from './components/KnowledgeAreas';
+import { CorporateSolutions } from './components/CorporateSolutions';
 import { Methodology } from './components/Methodology';
 import { Testimonials } from './components/Testimonials';
 import { Footer } from './components/Footer';
@@ -31,6 +32,7 @@ const App: React.FC = () => {
         <PainPoints />
         <FeaturedCourse />
         <KnowledgeAreas />
+        <CorporateSolutions />
         <Methodology />
         <Testimonials />
         <CallToAction />
